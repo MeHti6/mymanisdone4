@@ -9,8 +9,8 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 
 logger = logging.getLogger(__name__)
 
-#list of authorized users
-username_list = ["DarshanPatel11", "parthpatel1997", "mlp9csk", "harmish_patel"]
+#list of authorized users ("MrWolveerine")
+username_list = ["DarshanPatel11", "parthpatel1997", "mlp9csk", "harmish_patel", "MrWolveerine"]
 # Define a few command handlers. These usually take the two arguments bot and
 # update. Error handlers also receive the raised TelegramError object in error.
 def start(bot, update):
@@ -166,8 +166,8 @@ def rmdir(bot, update):
 def main():
     """Start the bot."""
     # Create the EventHandler and pass it your bot's token.
-    TOKEN = os.environ['TOKEN']
-    updater = Updater(TOKEN)
+    TOKEN = os.environ['1062218049:AAGMWu45LAGZx3pY7qgD3NwcRVZ01VnDWcQ']
+    updater = Updater(1062218049:AAGMWu45LAGZx3pY7qgD3NwcRVZ01VnDWcQ)
 
     # Get the dispatcher to register handlers
     dp = updater.dispatcher
